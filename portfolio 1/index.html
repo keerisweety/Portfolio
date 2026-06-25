@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geerthana B | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="nav-left">Geerthana</div>
+
+      <ul class="nav-center">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <span id="themeToggle" class="theme-btn">🌙</span>
+      </div>
+    </nav>
+
+  </header>
+
+  <div id="profile">
+    <img src="Geerthana.jpg" class="profile-img" alt="Geerthana">
+    <h1>GEERTHANA</h1>
+    <p>Full Stack Web Developer | Open to Work</p>
+    <a href="Geerthana_Python_Resume.pdf" download class="btn">⬇ Download Resume</a>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      MCA student with hands-on experience building Python-based full-stack web applications. Built MediSched Global, a
+      healthcare appointment platform using FastAPI and MongoDB with async Motor driver, OTP email authentication,
+      geospatial hospital search, and Render deployment. Also built MaduraiOne, a transit web app with FastAPI backend.
+      Seeking an entry-level Python Developer or Backend Developer role.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>Java</span>
+      <span>React</span>
+      <span>Tailwind CSS</span>
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>Flask</span>
+      <span>FastAPI</span>
+      <span>REST API Design</span>
+      <span>MongoDB</span>
+      <span>MySQL</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>MediSched Global — Healthcare Appointment Platform</strong> Python 3.11, FastAPI, React 19, Vite, MongoDB Atlas (Motor), JWT, SMTP, Render</p>
+    <p>• Built a full-stack healthcare platform with separate patient and doctor portals, OTP-based email login, and JWT session
+      management across protected routes.
+      • Developed a real-time doctor dashboard with 15-second polling for live schedule updates, enabling prescription entry
+      and automated appointment email notifications.
+      • Implemented distance-based hospital discovery using the Haversine formula and family member profile management
+      for patient accounts.
+      • Deployed full-stack app to Render with cloud-managed MongoDB Atlas; backend built with FastAPI using async Motor
+      driver.
+    </p>
+      <span id="projectlink"><a href="https://github.com/keerisweety/MediSched">GitHub link</a></span>
+      <span id="projecturl"><a href="https://medisched-frontend.onrender.com">view project</a></span>
+  </section>
+    <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>MaduraiOne — Mobile-First Transit Web App</strong> FastAPI, React 18, Vite, MongoDB, Tailwind CSS, Razorpay, QRCode</p>
+    <p>• Built a mobile-first travel companion web app for Madurai providing unified access to TNSTC government bus, private
+      bus, auto, car, bike, and train transport options.
+      • Developed FastAPI backend with OTP phone authentication, MongoDB for persistent data storage, and Razorpay
+      payment gateway integration.
+      • Implemented TNSTC fare calculation, QR ticket generation using UUID, GPS-based location detection, and
+      Tamil/English bilingual language switching.
+      • Added accessibility mode for visually impaired users with optimised touch targets and typography.
+    </p>
+      <span id="projectlink"><a href="https://github.com/keerisweety/Madurai-one">GitHub link</a></span>
+      <span id="projecturl"><a href="https://maduraione.onrender.com">view project</a></span>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>MCA – Madurai Kamaraj University College <br>(2024–2026)</p>
+    <p>B.Sc Mathematics – E.M.G Yadava Womens College <br> (2021–2024) <br><b><small> CGPA - 7.14</small></b></p>
+  </section>
+<center>
+<footer>
+  <p>
+    <a href="https://github.com/keerisweety" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>   |
+    <a href="mailto:geerthanab@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>   |
+    <a href="https://www.linkedin.com/in/b-geerthana-3103222a5/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>   |
+    <a href="tel:+919025440629" target="_blank">
+      <i class="fas fa-phone"></i>
+    </a>
+  </p>
+
+
+  <p>© <span id="year"></span> Geerthana B</p>
+</footer>
+  </center>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
