@@ -35,6 +35,12 @@ body {
 
 
 /* NAVBAR */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -61,7 +67,7 @@ body {
   border: none;
   background: none;
   font-weight: bold;
-  background: linear-gradient(to right, #68dded, #06c5eb);
+  background: linear-gradient(to right, #f4f5f5, #939899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
@@ -190,6 +196,9 @@ nav ul li:last-child {
   margin-bottom: 5px;
 }
 
+.profile p{
+  background-color: none;
+}
 /* BUTTON */
 .btn {
   display: inline-block;
@@ -198,8 +207,8 @@ nav ul li:last-child {
   padding-right: 18px;
   padding-bottom: 10px;
   padding-left: 18px;
-  background: linear-gradient(to right, #02047d, #1d36d7);
-  color: #ffffff;
+  background: linear-gradient(to right, #dcdce4, #98989b);
+  color: #0b0587;
   text-decoration-line: none;
   border-radius: 6px;
 }
@@ -221,12 +230,19 @@ section {
 }
 
 /* SKILLS */
-.skills {
-  text-align: center;
+.skills-list {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+  text-align: center;
 }
+
+ 
 
 #projectlink{
   display: inline-block;
@@ -302,6 +318,10 @@ section {
   
   border-radius: 20px;
   font-weight: 600;
+}
+
+.topic{
+  color:rgb(198, 198, 203);
 }
 
 /* FIXED TOGGLE BUTTON */
