@@ -183,9 +183,10 @@ nav ul li:last-child {
 }
 
 .profile-img {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
+  object-fit: cover;
   margin-bottom: 5px;
 }
 
@@ -253,6 +254,35 @@ section {
 
 #projectlink a:hover {
   color: #e0e7ff;
+}
+
+
+#projecturl{
+  display: inline-block;
+  background-color: #1e3a8a;
+  box-shadow: 2px 2px 2px 2px #1e3a8a;
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  padding-top: 8px;
+  padding-right: 14px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  background-color: var(--skill-background);
+  color:white;
+  
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+#projecturl a {
+  color: white;
+  text-decoration: none;
+}
+
+#projecturl a:hover {
+  color: #2353f1;
 }
 
 .skills span {
