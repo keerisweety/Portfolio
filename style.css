@@ -175,8 +175,20 @@ nav ul li:last-child {
 }
 
 /* PROFILE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 #profile {
-  display:block;
+  display:inline-flexbox;
   padding: 0;
   height: 100%;
   width:100%;
@@ -196,9 +208,6 @@ nav ul li:last-child {
   margin-bottom: 5px;
 }
 
-.profile p{
-  background-color: none;
-}
 /* BUTTON */
 .btn {
   display: inline-block;
@@ -269,7 +278,7 @@ section {
 }
 
 #projectlink a:hover {
-  color: #e0e7ff;
+  color: #2353f1;
 }
 
 
@@ -318,10 +327,6 @@ section {
   
   border-radius: 20px;
   font-weight: 600;
-}
-
-.topic{
-  color:rgb(198, 198, 203);
 }
 
 /* FIXED TOGGLE BUTTON */
