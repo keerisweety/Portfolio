@@ -179,7 +179,7 @@ nav ul li:last-child {
   padding-top: 40px;
   padding-bottom: 20px;
   margin: 0;
-  box-shadow: 2px 2px 8px 6px #2c5ee9;
+  /* box-shadow: 2px 2px 8px 6px #2c5ee9; */
 }
 
 .profile-img {
